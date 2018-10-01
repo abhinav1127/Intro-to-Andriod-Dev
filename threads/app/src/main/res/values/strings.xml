@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Threads</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_thread_details">ThreadDetailsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="choose_a_thread">Choose a Thread</string>
+
+</resources>

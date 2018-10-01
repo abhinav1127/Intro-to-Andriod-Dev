@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:fitsSystemWindows="true"
+        tools:context="edu.gatech.gtorg.gitmad.threads.activity.MainActivity"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="edu.gatech.gtorg.gitmad.threads.fragment.ThreadsListFragment"
+        class="edu.gatech.gtorg.gitmad.threads.fragment.ThreadsListFragment"
+        android:id="@+id/threadsListFragment"
+        tools:layout="@layout/fragment_threads_list" />
+
+
+</LinearLayout>
+
